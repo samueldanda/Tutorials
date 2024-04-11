@@ -1,0 +1,26 @@
+Spring Boot Validation annotations
+Spring provides a wide range of validation options. Here is some Spring Boot Validation annotations that you may need to use for validating request body:
+
+@NotNull: Marks a field as required and cannot be null.
+@NotBlank: Marks a field as required and cannot be blank.
+@NotEmpty: Marks a field (including collection, map, or array) as required and cannot be empty.
+@Size: Specifies the minimum and/or maximum size of a field.
+@Min: Specifies the minimum value of a numeric field.
+@Max: Specifies the maximum value of a numeric field.
+@Email: Validates that a field is a valid email address.
+@Pattern: Specifies a regular expression that a field must match.
+@Valid: Indicates that a field should be validated recursively.
+@AssertTrue: Validates that a boolean field is true.
+@AssertFalse: Validates that a boolean field is false.
+@DecimalMin: Specifies the minimum value of a decimal field.
+@DecimalMax: Specifies the maximum value of a decimal field.
+@Digits: Specifies the number of digits and/or fraction digits for a decimal field.
+@Positive: Validates that a numeric field is positive.
+@PositiveOrZero: Validates that a numeric field is positive or zero.
+@Negative: Validates that a numeric field is negative.
+@NegativeOrZero: Validates that a numeric field is negative or zero.
+@Future: Validates that a date or time field is in the future.
+@Past: Validates that a date or time field is in the past.
+@URL: Validates that a field is a valid URL.
+@Validated: Indicates that a class or interface should be validated recursively.
+@Range: Specifies a range of values for a field.
